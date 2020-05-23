@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./sass/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+
+    <script src="./js/app.js" defer></script>
+
+    <title>Picture</title>
+</head>
+<body>
+    
+<header>
+    <nav>
+        <a href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+        <div class="right-part">
+            <a href="index.html">HOME</a>
+            <a href="#">AUTHORS</a>
+            <a href="#">EXPLORE</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+            <a href="#" id="start-btn">LET'S START</a>
+        </div>
+    </nav>
+
+    <div class="header-content">
+        <h1>The best free stock photos & videos shared by talented creators.</h1>
+        <div class="header-content__input-containner">
+            <input type="text" placeholder="Search for free photos and videos">
+            <img src="./img/search-outline.png" class="header-content__input-containner__search" alt="search icon">
+        </div>
+        <a href="#imgStck"><img src="./img/arrow-down.png" class="header-content__arrow" alt="arrow down icon"></a>
+    </div>
+</header>
+
+<main>
+    <ul class="navigation">
+        <li id="all" class="selected">All</li>
+        <li id="food">Food</li>
+        <li id="travel">Travel</li>
+        <li id="nature">Nature</li>
+        <li id="cars">Cars</li>
+        <li id="tech">Tech</li>
+    </ul>
+
+    <div id="imgStck" class="image-stock">
+        <div class="col one"></div>
+        <div class="col two">
+            <h1 class="noFound">Nothing Found! 😕</h1>
+        </div>
+        <div class="col three"></div>
+    </div>
+</main>
+
+<footer>
+    <button>Load More</button>
+    <div class="devlopper">
+        <p>Done with <span class="heart">❤</span> by <span class="me">A.Salim</span></p>
+    </div>
+</footer>
+
+</body>
+</html>
